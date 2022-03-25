@@ -174,7 +174,7 @@ const App = () => {
             </p>
           ) : (
             <h2 className="text-[yellow]">
-              {playerName[0]}'s Score: {turnsSolo} Time: {date.diff(startDate, 'minutes')} minutes
+              {playerName[0]}'s Turn: {turnsSolo} Time: {date.diff(startDate, 'minutes')} minutes
             </h2>
           )}
         </div>
