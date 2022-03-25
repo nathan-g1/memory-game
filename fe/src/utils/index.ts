@@ -3,7 +3,7 @@ import { Card } from '../App';
 // Shuffles array in place. ES6 version
 export const shuffler = (array: { src: string, matched: boolean }[]): Card[] => {
     const shuffled = [...array, ...array]
-        // .sort(() => Math.random() - 0.5)
+        .sort(() => Math.random() - 0.5)
         .map((item, i) => ({ ...item, id: i }));
     return shuffled;
 }
