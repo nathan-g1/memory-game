@@ -36,11 +36,11 @@ export default class ScoreDao {
         const db = await DatabaseDao.connectToDatabase();
         const collection = db.collection(this.scoresCollection);
 
-        // Get 5 max scores
+        // Get 5 max scores with the highest score []
         const result = await collection
             .find()
             .sort({
-                score: -1
+                score: 1
             })
             .limit(5)
             .toArray();

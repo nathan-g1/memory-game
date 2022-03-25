@@ -50,7 +50,6 @@ export default class ScoreController {
             const scores = await this.scoreService.getScores();
             return res.status(200).json({ scores });
         } catch (error) {
-            console.log(error)
             switch (error.message) {
                 default:
                     return res.status(500).json({ error: [ErrorType.SERVER_ERROR] });
