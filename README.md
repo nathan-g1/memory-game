@@ -2,6 +2,8 @@
 
 Requires [MongoDB](https://www.mongodb.com/try/download/community) & [NodeJs](https://nodejs.org/) to run the game.
 
+[Game Rules](https://www.ultraboardgames.com/memory/game-rules.php)
+
 ## Clone and install dependencies
 
 ```sh
