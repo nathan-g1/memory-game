@@ -1,5 +1,7 @@
 # Shard Labs Memory Game
 
+<img width="1840" alt="image" src="https://user-images.githubusercontent.com/31796134/171407287-05520e86-6c5b-4526-bf06-16c63a59b1eb.png">
+
 Requires [MongoDB](https://www.mongodb.com/try/download/community) & [NodeJs](https://nodejs.org/) to run the game.
 
 [Game Rules](https://www.ultraboardgames.com/memory/game-rules.php)
